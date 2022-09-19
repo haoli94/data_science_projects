@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker rm -f dsmysql
+docker run --detach --name=dsmysql --publish 6603:3306 dsmysql:0.1

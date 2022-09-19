@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat data/backup.sql | docker exec -i $(docker container ls | awk '{if ($0~"dsmysql") print $1}') /usr/bin/mysql -u root --password=zenith jsptutorial
+

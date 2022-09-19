@@ -43,4 +43,3 @@ https://ganeshchandrasekaran.com/dbeaver-public-key-retrieval-is-not-allowed-77e
 
 
 
-docker run --detach --name=jspmysql --publish 6603:3306 jspmysql:0.1
